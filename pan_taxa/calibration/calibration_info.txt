@@ -1,0 +1,58 @@
+Gene	Species
+WNT1	homo sapiens,mus musculus,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
+NR6A1	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
+RORB	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
+RARB	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
+AKT1	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c
+AKT2	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c
+KRAS	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c
+BRCA1	homo sapiens,mus musculus,danio rerio,ciona savignyi
+SIRT1	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c
+TP53	homo sapiens,mus musculus,danio rerio,ciona savignyi
+MSH3	homo sapiens,mus musculus,danio rerio,!drosophila melanogaster,!caenorhabditis elegans,saccharomyces cerevisiae s288c,arabidopsis thaliana
+MLH1	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c,arabidopsis thaliana
+RAD51	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c,arabidopsis thaliana
+CDK1	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c
+CDKN2A	homo sapiens,mus musculus,danio rerio
+MAPK3	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c,arabidopsis thaliana
+PLK1	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c
+BRIP1	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c
+XRCC6	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c,arabidopsis thaliana
+ERCC2	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c,arabidopsis thaliana
+CYP3A4	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,caenorhabditis elegans
+CTNNB1	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c
+E2F1	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
+TET1	homo sapiens,mus musculus,danio rerio,drosophila melanogaster
+SMARCA2	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c,arabidopsis thaliana
+SMARCA4	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c
+EGFR	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,caenorhabditis elegans
+MDM2	homo sapiens,mus musculus,danio rerio,ciona savignyi
+SSH1	homo sapiens,mus musculus,danio rerio,drosophila melanogaster
+SSH3	homo sapiens,mus musculus,danio rerio
+SSH2	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster
+DVL3	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
+DVL1	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,caenorhabditis elegans
+DVL2	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
+NR0B1	homo sapiens,mus musculus,danio rerio
+WT1	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,caenorhabditis elegans
+NF1	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,!caenorhabditis elegans,saccharomyces cerevisiae s288c
+SNRPN	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c
+H19	homo sapiens,mus musculus
+CDKN1C	homo sapiens,mus musculus,danio rerio,oryza sativa japonica
+IGF2	homo sapiens,mus musculus,danio rerio
+CASP3	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
+RB1	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,caenorhabditis elegans
+SCRIB	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
+DLG1	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
+SMAD1	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
+PPP1CC	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c,arabidopsis thaliana
+CDK4	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c
+TUBA4A	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,caenorhabditis elegans,bread mold,saccharomyces cerevisiae s288c,oryza sativa japonica
+PAPOLG	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c,arabidopsis thaliana
+JUP	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,caenorhabditis elegans
+PPP2R5D	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans,saccharomyces cerevisiae s288c,arabidopsis thaliana
+CYB5R1	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,caenorhabditis elegans,bread mold,saccharomyces cerevisiae s288c
+LATS2	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
+KATNAL2	homo sapiens,mus musculus,danio rerio,drosophila melanogaster
+KIF18A	homo sapiens,mus musculus,danio rerio,drosophila melanogaster,saccharomyces cerevisiae s288c
+NUCB2	homo sapiens,mus musculus,danio rerio,ciona savignyi,drosophila melanogaster,caenorhabditis elegans
