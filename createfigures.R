@@ -26,17 +26,20 @@ df.m1 <- melt(df, measure.vars = c('fam_age','corr_age'))
 q <- ggplot(df.m1) + geom_density(aes(x=value,colour=variable)) + labs(x = "Age (MY)", y = "Density") + scale_colour_discrete(name = "Age", breaks = c("fam_age", "corr_age"), labels = c("Family Age", "Corrected Family Age")) + ggtitle("Pan-taxa Compara Tree Correction")
 svg(filename = paste(substr(file,1,nchar(file)-4),'_fam_correction','.svg',sep = ''))
 print(q)
+dev.off()
 
 df.m2 <- melt(df, measure.vars = c('len_age','corr_len_age'))
 q <- ggplot(df.m2) + geom_density(aes(x=value,colour=variable)) + labs(x = "Age (MY)", y = "Density") + scale_colour_discrete(name = "Age", breaks = c("len_age", "corr_len_age"), labels = c("Length Age", "Corrected Length Age")) + ggtitle("Pan-taxa Compara Tree Correction")
 svg(filename = paste(substr(file,1,nchar(file)-4),'_len_correction','.svg',sep = ''))
 print(q)
+dev.off()
 
 file <- calibration_file
 df <- read.table(file, sep="\t", header=FALSE)
 q <- ggplot(df) + geom_point(aes(x = V1, y = V2)) + labs( x = 'Percent of Nodes Above', y = 'Node Bootstrap' ) + ggtitle("Calibration")
 svg(filename = paste(substr(file,1,nchar(file)-4),'.svg',sep = ''))
 print(q)
+dev.off()
 
 file <- molgen_file
 df <- read.csv(file, header=TRUE)
@@ -47,7 +50,8 @@ p <- ggplot(df) + geom_boxplot(aes(x = Cancer_Molecular_Genetics, y = fam_age, c
 
 svg(filename = paste(substr(file,1,nchar(file)-4),'_distribution','.svg',sep = ''))
 print(q)
+dev.off()
 svg(filename = paste(substr(file,1,nchar(file)-4),'_boxplot','.svg',sep = ''))
 print(p)
-
+dev.off()
 q()
