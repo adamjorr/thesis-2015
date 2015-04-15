@@ -2,8 +2,10 @@ library(ggplot2)
 library(reshape)
 library(grid)
 
-files = c('hogenom_laged.txt','homologene_laged.txt','pantaxa_corraged.txt')
+files = c('hogenom/hogenom_laged.txt','homologene/homologene_laged.txt','pan_taxa/pantaxa_corraged.txt')
 titles = c('HOGENOM','Homologene','Ensembl Pan-taxa Compara')
+calibration_file = 'pan_taxa/calibration/calibration_out.txt'
+molgen_file = 'EnsIDsAgeCancerMolGen.csv'
 
 svg('dist_plots.svg',width = 21)
 pushViewport(viewport(layout = grid.layout(1,3)))
@@ -17,7 +19,7 @@ for(i in 1:length(files)){
 }
 dev.off()
 
-file <- 'pantaxa_corraged.txt'
+file <- files[3]
 
 df <- read.table(file, sep="\t", header=TRUE)
 df.m1 <- melt(df, measure.vars = c('fam_age','corr_age'))
@@ -30,14 +32,14 @@ q <- ggplot(df.m2) + geom_density(aes(x=value,colour=variable)) + labs(x = "Age 
 svg(filename = paste(substr(file,1,nchar(file)-4),'_len_correction','.svg',sep = ''))
 print(q)
 
-file <- 'calibration_out.txt'
+file <- calibration_file
 df <- read.table(file, sep="\t", header=FALSE)
 q <- ggplot(df) + geom_point(aes(x = V1, y = V2)) + labs( x = 'Percent of Nodes Above', y = 'Node Bootstrap' ) + ggtitle("Calibration")
 svg(filename = paste(substr(file,1,nchar(file)-4),'.svg',sep = ''))
 print(q)
 
-file <- 'EnsIDsAgeCancerMolGen.csv'
-df <- read.csv('EnsIDsAgeCancerMolGen.csv', header=TRUE)
+file <- molgen_file
+df <- read.csv(file, header=TRUE)
 df <- df[c('Gene_Symbol','Cancer_Molecular_Genetics','fam_age')]
 df <- subset(df, Cancer_Molecular_Genetics == 'Dom' | Cancer_Molecular_Genetics == 'Rec')
 q <- ggplot(df) + geom_density(aes(x = fam_age, color = Cancer_Molecular_Genetics)) + labs(x = "Age (MY)", y = "Density") + scale_colour_discrete(name = "Cancer Gene Type", breaks = c("Dom", "Rec"), labels = c("Dominant", "Recessive")) + ggtitle("Family Age in COSMIC Cancer Genes")
