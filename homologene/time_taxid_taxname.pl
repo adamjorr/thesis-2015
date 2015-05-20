@@ -1,3 +1,6 @@
+#!usr/bin/perl
+#perl time_taxid_taxname.pl speciesfile.txt
+
 use warnings;
 use LWP::Simple;
 use List::Util qw(sum);

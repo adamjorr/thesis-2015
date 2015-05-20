@@ -1,4 +1,6 @@
 #!usr/bin/perl;
+#perl age_homologene.pl
+
 use strict;
 use warnings;
 use LWP::Simple;

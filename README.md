@@ -11,7 +11,7 @@ Age Genes
 
 Ensembl Compara
 ---------------
-`perl lage_pantaxa.pl`
+`perl lage_pantaxa.pl Compara.phyloxml_aa_trees.22 pantaxa_ages.txt`
 
 HOGENOM
 -------
@@ -23,8 +23,8 @@ HOGENOM
 
 Homologene
 ----------
-`perl time_taxid_taxname.pl`
+`perl time_taxid_taxname.pl taxid_taxname`
 
 `perl age_homologene.pl`
 
-`perl lage_homologene.pl`
+`perl lage_homologene.pl homologene_aged.txt homologene.data.txt`
