@@ -17,5 +17,5 @@ wget ftp://pbil.univ-lyon1.fr/pub/hogenom/release_06/hogenom6.phyml
 
 ##HOMOLOGENE
 
-wget ftp://ftp.ncbi.nih.gov/pub/HomoloGene/current/homologene.data
-wget ftp://ftp.ncbi.nih.gov/pub/HomoloGene/current/build_inputs/taxid_taxname
+wget ftp://ftp.ncbi.nih.gov/pub/HomoloGene/build68/homologene.data
+wget ftp://ftp.ncbi.nih.gov/pub/HomoloGene/build68/build_inputs/taxid_taxname
