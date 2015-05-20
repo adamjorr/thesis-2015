@@ -1,1 +1,30 @@
 This is a collection of scripts suitable for recreating my honors thesis.
+
+Download the data, then run the appropriate scripts to perform the desired analyses
+
+Downloading Data
+================
+`bash download_3rdparty_data.sh`
+
+Age Genes
+=========
+
+Ensembl Compara
+---------------
+`perl lage_pantaxa.pl`
+
+HOGENOM
+-------
+`perl time_species_code.pl species_code`
+
+`perl age_hogenom.pl`
+
+`perl lage_hogenom.pl hogenom_aged.txt acc_id5_id6`
+
+Homologene
+----------
+`perl time_taxid_taxname.pl`
+
+`perl age_homologene.pl`
+
+`perl lage_homologene.pl`
