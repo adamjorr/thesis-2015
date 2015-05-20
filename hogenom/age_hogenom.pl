@@ -190,14 +190,3 @@ for my $geneid (@human_unis){
 
 exit;
 __END__
-
-Ok here's the plan:
-x	Build time machine
-x	Build HogenomID => Family (With FAM_HOGENOMID)
-x	Build Family => @HogenomIDs (With FAM_HOGENOMID)
-x	Build HogenomID => Species (With HOGENOMID_SPECIES)
-x	Build Family =>@speciesNames => Age using time machine
-x	Build Hogenom ID => Age
-x	Build UniProt => HogenomID with acc_id5_id6
-x	Build UniProt => RefSeq with mapping tool
-x	Display UniProt, UniProt => RefSeq, UniProt => HogenomID => Age
