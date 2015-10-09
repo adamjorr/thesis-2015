@@ -1,6 +1,6 @@
 #!usr/bin/perl
 #
-#perl error_ager.pl InputFolder outfile_name.txt
+#perl lage_pantaxa.pl InputFolder outfile_name.txt
 #
 #Takes the tree archive from release 22 (compara release 75)
 #and gets age & length-based age & rate
