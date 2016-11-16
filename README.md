@@ -1,4 +1,4 @@
-This is a collection of scripts suitable for estimating the evolutionary age of genes. (and recreating my honors thesis)
+This is a collection of scripts suitable for estimating the evolutionary age of genes (and recreating my 2015 honors thesis).
 
 Download the data, then run the appropriate scripts to perform the desired analyses
 
@@ -9,8 +9,8 @@ Downloading Data
 Age Genes
 =========
 
-Ensembl Compara
----------------
+Ensembl Compara (recommended)
+-----------------------------
 `perl lage_pantaxa.pl Compara.phyloxml_aa_trees.22 pantaxa_ages.txt`
 
 HOGENOM
