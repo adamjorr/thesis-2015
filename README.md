@@ -1,4 +1,4 @@
-This is a collection of scripts suitable for recreating my honors thesis.
+This is a collection of scripts suitable for estimating the evolutionary age of genes. (and recreating my honors thesis)
 
 Download the data, then run the appropriate scripts to perform the desired analyses
 
